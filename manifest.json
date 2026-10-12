@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Minimal New Tab",
+  "version": "0.2.0",
+  "description": "軽量な検索・Todo・カウントダウン用の新しいタブ",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://suggestqueries.google.com/*"
+  ]
+}
